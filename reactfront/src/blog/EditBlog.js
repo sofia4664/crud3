@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
-const URI = 'http://localhost:8000/blogs/'
+const URI = 'http://54.205.117.250:8000/blogs/'
 
 const CompEditBlog = () => {
     const [title, setTitle] = useState('');
